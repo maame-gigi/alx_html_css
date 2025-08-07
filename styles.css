@@ -60,6 +60,16 @@ header {
   position: relative;
 }
 
+.hero-btn {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FF6565;
+box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+border-radius: 22px;
+}
 
 
 
