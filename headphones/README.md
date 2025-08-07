@@ -5,7 +5,7 @@ This is a landing page project for a headphone brand, based on a provided Figma 
 
 
 
-** Design Requirements** 
+**Design Requirements** 
 
 These are the core visual and behavior rules I’ll be implementing:
 
@@ -14,7 +14,7 @@ These are the core visual and behavior rules I’ll be implementing:
 - All *buttons* on hover/active must have `opacity: 0.9`
 - The *max width* of the content must be `1000px` and centered on the page
 
-** Planned Structure**
+**Planned Structure**
 
 - `index.html` — Main HTML
 - `styles.css` — Styling
