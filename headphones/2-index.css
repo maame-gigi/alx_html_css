@@ -2,6 +2,7 @@
   background-image: url('images/headphones_hero_2.jpg');
   background-size: cover;
   background-position: center;
+  background-color: gray;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -10,4 +11,9 @@
   color: white;
   position: relative;
   background-color: #333;
+}
+
+.results-section p {
+  text-align: center;
+  max-width: 600px;
 }
