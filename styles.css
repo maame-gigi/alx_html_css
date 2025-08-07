@@ -18,12 +18,21 @@ header {
   z-index: 10;
 }
 
+
 /* Logo */
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: white;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 
 /* Nav menu */
 .navbar ul {
