@@ -1,32 +1,41 @@
-/* header */
-header{
-position: absolute;
-width: 1000.39px;
-height: 32px;
-left: 200.61px;
-top: 27.76px;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-/* menu */
-/*.navbar{
-position: absolute;
-width: 255px;
-height: 15px;
-left: 946px;
-top: 37px;
+/* Header */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
 }
 
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
 
+/* Nav menu */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
 
-/* logo */
-/*.logo{
-position: absolute;
-width: 160.96px;
-height: 31.18px;
-left: 200.61px;
-top: 27.76px;
-}*/
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 .hero {
   background-image: url('headphones_hero_1.jpg');
