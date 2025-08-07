@@ -9,7 +9,7 @@ top: 27.76px;
 
 
 /* menu */
-.navbar{
+/*.navbar{
 position: absolute;
 width: 255px;
 height: 15px;
@@ -20,13 +20,13 @@ top: 37px;
 
 
 /* logo */
-.logo{
+/*.logo{
 position: absolute;
 width: 160.96px;
 height: 31.18px;
 left: 200.61px;
 top: 27.76px;
-}
+}*/
 
 .hero {
   background-image: url('headphones_hero_1.jpg');
