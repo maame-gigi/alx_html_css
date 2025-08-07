@@ -79,6 +79,7 @@ header {
   text-align: center;
   color: white;
   position: relative;
+  background-color: #333;
 }
 
 .hero-content {
@@ -110,10 +111,12 @@ header {
 }
 
 .maintext {
-  margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-top: 250px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 70px;
   text-align: center;
+  line-height: 1.5;
 }
 
 .icon-grid {
@@ -139,6 +142,7 @@ header {
   display: block;
   margin-bottom: 10px;
   color: #FF6565;
+  
 }
 
 .icon-block p {
