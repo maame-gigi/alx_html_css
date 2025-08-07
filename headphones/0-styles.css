@@ -109,6 +109,13 @@ header {
   max-width: 600px;
 }
 
+.maintext {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
 /* MOBILE STYLES */
 @media (max-width: 480px) {
   header {
