@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Headphones Project</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo_headphones.png" alt="Headphones Logo" />
+      </div>
+
+      <!-- Hamburger for small screens -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Navigation links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#what">what we do</a></li>
+        <li><a href="#results">our results</a></li>
+        <li><a href="#contact">contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+      <p>Discover something amazing</p>
+      <br><br><br>
+      <button class="hero-btn" onclick="location.href='#contact'">CALL TO ACTION</button>
+      <br><br><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corporis labore, excepturi et eligendi magnam magni assumenda, blanditiis soluta omnis nemo ratione temporibus consectetur unde quod enim odit error non.</p>
+    </div>
+  </section>
+
+  <!-- JavaScript goes here -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
