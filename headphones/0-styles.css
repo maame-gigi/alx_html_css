@@ -110,48 +110,6 @@ header {
   max-width: 600px;
 }
 
-.maintext {
-  margin-top: 250px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 70px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.icon-grid {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.icon-block {
-  flex: 1 1 20%;
-  min-width: 150px;
-  padding: 20px;
-}
-
-.icon-block span {
-  font-family: 'holberton_school-icon';
-  font-size: 48px;
-  display: block;
-  margin-bottom: 10px;
-  color: #FF6565;
-  
-}
-
-.icon-block p {
-  font-family: source-sans-pro, sans-serif;
-  color: #333;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
 
 /* MOBILE STYLES */
 @media (max-width: 480px) {
