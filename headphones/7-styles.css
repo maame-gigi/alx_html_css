@@ -1,1 +1,59 @@
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+@media (max-width: 480px) {
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@media (max-width: 480px) {
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
 
