@@ -18,25 +18,29 @@
   max-width: 600px;
 }
 
-/* .pentagon-row {
+.pentagon-row {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; 
+  gap: 20px;
   padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
   background-color: #fff;
 }
 
 .pentagon-card {
+  width: 22%;
   position: relative;
-  width: 150px;
-  height: 150px;
+  aspect-ratio: 1; 
+  min-width: 120px; 
 }
 
 .pentagon-card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .text-overlay {
