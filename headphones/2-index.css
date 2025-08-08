@@ -1,8 +1,9 @@
-.results-section {
+/*.results-section {
   background-image: url('images/headphones_hero_2.jpg');
   background-size: cover;
   background-position: center;
-  background-color: gray;
+  outline: 2px solid red;
+  background-color: black;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -10,13 +11,41 @@
   text-align: center;
   color: white;
   position: relative;
+}*/
+
+.results-section {
+  background-image: url('images/headphones_hero_2.jpg');
+  background-size: cover;
+  background-position: center;
   background-color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  outline: 2px solid limegreen;
 }
 
-.results-section p {
+
+
+.maintext {
+  max-width: 800px;
+  margin-top: 550px;
+  margin-left: 200px;
+  padding: 0 20px;
   text-align: center;
-  max-width: 600px;
+  position: relative;
 }
+
+.maintext p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9e2727;
+}
+
 
 .pentagon-row {
   display: flex;
@@ -26,7 +55,8 @@
   gap: 20px;
   padding: 40px 20px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin-top: 250px;
+  margin-left: 200px;
   background-color: #fff;
 }
 
